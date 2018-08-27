@@ -33,20 +33,20 @@ This readme file provides a basic explanation of the file structure in the TCP O
 
 3. DESIGN FILE HIERARCHY 
 
-\
-  | 
-  +------ \hls
-  |     Contains all the Vivado HLS projects for implementing the TCP Offload engine and related modules.
-  +------ \rtl
-	|			Contains all the rtl code used to create Vivado project.
-	+------ \ip
-	|			Contains all the netlist files used to create Vivado project.
-	+------ \constraints
-	|			Contains all the constraint files for generating bitstream
-	+------ \scripts
-	| 		Contain all scripts for building Vivado project, generating bitstream and testing bitstream
-	+------ \doc
-	|			Contain the design document for the TCP offload engine
+    \
+      | 
+      +------ \hls
+      |     Contains all the Vivado HLS projects for implementing the TCP Offload engine and related modules.
+      +------ \rtl
+	    |			Contains all the rtl code used to create Vivado project.
+	    +------ \ip
+	    |			Contains all the netlist files used to create Vivado project.
+	    +------ \constraints
+	    |			Contains all the constraint files for generating bitstream
+	    +------ \scripts
+	    | 		Contain all scripts for building Vivado project, generating bitstream and testing bitstream
+	    +------ \doc
+	    |			Contain the design document for the TCP offload engine
 
 4. INSTALLATION AND OPERATING INSTRUCTIONS
 
