@@ -31,7 +31,7 @@ This readme file provides a basic explanation of the file structure in the TCP O
 
 ## 3. DESIGN FILE HIERARCHY 
 
-   ```shell
+   ```text
    \
      | 
      +------ \hls
